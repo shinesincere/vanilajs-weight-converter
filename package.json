@@ -1,0 +1,17 @@
+{
+  "name": "vanilajs-weight-converter",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "shine sincere",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "sass": "node-sass --watch index.scss index.css",
+    "server": "live-server --port=4000"
+  }
+}
